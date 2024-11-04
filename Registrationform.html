@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Workshop Registration</title>
+</head>
+<body bgcolor="lightblue">
+    <marquee><img src="marquee.png" alt="Image not loaded" height="50px"></marquee>
+    <center>
+    <div>
+        <h2>Workshop Registration Form</h2>
+        <form>
+            <table cellspacing="20">
+                <tr>
+                    <td><label for="name">Full Name</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>:</td>
+                    <td><select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email Address</label></td>
+                    <td>:</td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="contact">ContactNumber</label></td>
+                    <td>:</td>
+                    <td><input type="tel" id="contact" name="contact"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Preferred Date</label></td>
+                    <td>:</td>
+                    <td><select id="date" name="date">
+                        <option value="day1">Day 1</option>
+                        <option value="day2">Day 2</option>
+                        <option value="day3">Day 3</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="topic">Topic</label></td>
+                    <td>:</td>
+                    <td><select id="topic" name="topic">
+                        <option value="cloud">Cloud Computing</option>
+                        <option value="ml">Machine Learning</option>
+                        <option value="data">Data Analytics</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td>:</td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="receipt">Upload Payment Receipt</label></td>
+                    <td>:</td>
+                    <td><input type="file" id="receipt" name="receipt"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><button type="submit">Register</button></td>
+                </tr>    
+            </table>
+        </form>
+    </div>
+    </center>
+    <div>
+        <h3>Resourse Persons</h3>
+        <ol>
+            <li>Cloud Computing</li>
+                <ul>
+                    <li>Dr.A.Kumar</li>
+                    <ul>
+                        <li>Expertise:Cloud Architectures,AWS,Azure</li>
+                        <li>Contact:akumar@skct.edu.in</li>
+                    </ul>
+                </ul>
+            <li>Machine Learning</li>
+                <ul>
+                    <li>Dr.B.Mehtra</li>
+                    <ul>
+                        <li>Expertise:AI,Neural Networks,Python</li>
+                        <li>Contact:bmehtra@skct.edu.in</li>
+                    </ul>
+                </ul>
+            <li>Data Analytics</li>
+                <ul>
+                    <li>Dr.C.Reddy</li>
+                    <ul>
+                        <li>Expertise:Big Data,R,SQL</li>
+                        <li>Contact:creddy@skct.edu.in</li>
+                    </ul>
+                </ul>
+        </ol>
+    </div>
+</body>
+</html>
